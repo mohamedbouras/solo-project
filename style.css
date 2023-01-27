@@ -1,0 +1,33 @@
+.game{
+    width: 455px;
+    text-align: center;
+    font-family: system-ui;
+    margin: auto;
+    color: white
+}
+.title{
+    background: rgb(221 168 30);
+    padding: 5px 0 ;
+   
+}
+body{
+    background-image: url("./xoback.jpg");
+}
+span{
+    color: rgb(0, 0, 0);
+}
+.square{
+    height: 147px;
+    width: 147px;
+    background: rgb(25, 23, 24);
+    float: left;
+    margin: 2px;
+    font-size: 100px;
+  
+    
+}
+.square:hover{
+    background: #000;
+   cursor: pointer;
+}
+
